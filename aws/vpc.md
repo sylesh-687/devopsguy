@@ -11,4 +11,13 @@
         - Transit Gateways
         - VPC Flow logs
         - VPN Connections
-          
+
+2. What is Subnet?
+     - Range of Ip Adress in your VPC
+     - Each Subnet must reside entirely in an AZ ( availability zone ) and cannot span zones
+     - Each Subnet must be associated with a routetable, which specifies routes for outbound traffic leaving the subnet
+     - Types of Subnet
+         - Private Subnet ( This Subnet doesnot have direct access to Internet Gateway, Resources in Private Subnet resuire NAT to access Internet )
+         - Public Subnet ( This Subnet has direct route to Internet Gateway )
+         - VPN-only Subnet ( This subnet has Site to Site VPN Connection through Virtual Private Gateway )
+         - Isolated Subnet ( This Subnet has not routes to destination outside VPC )
