@@ -41,3 +41,11 @@
          EBS Backed (The root Device for an Instance is launched from AMI is an EBS Volume created from EBS snapshot, Support both Linux and Windows)  
          Instance Store Backed ( The root device is an instance store volume created from template stored in S3, Supports only Linux) 
 
+3. What is instance type?
+   - Different Combination of ( CPU + Memory + Instance Storage + Network Bandwith + EBS Bandwidth )
+   
+     - General Purpose 
+	 		Balance of compute, memory and network resources
+			Graviton4 Processors
+			Elastic Fabric Adaptor
+			AWS Nitros System
