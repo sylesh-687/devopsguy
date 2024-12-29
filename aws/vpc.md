@@ -52,6 +52,17 @@
    - NAT is Availablity Zone Specific
    - NAT Supports TCP, UDP, ICMP
    - NAT Support 5Gbps and scales upto 100Gpps
+  
+7. What are the Advantages of NAT?
+    - Allows resources in private Subnet to connect to Internet
+    - Enable Communication between overlapping Networks
+    - Access your netwok with allowed list of IPS
+8. Use Cases of NAT?
+    - Logging and Monitoring ( Applications frequently needs to send logs an metrics to external services, using NAT private Instances can communicate to external endpoints without being exposed
+    - Database Backups
+    - Software updates and patching
+    - Security Compliance
+    - Outbound Data Transfer 
    - You cannot associate Security Group to NAT
    - Ports used by NAT are 1024–65535
    - You can't route traffic to NAT through VPC peering
