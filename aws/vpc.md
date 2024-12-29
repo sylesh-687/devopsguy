@@ -28,3 +28,11 @@
      - It enables the components in public subnet to connect to internet, if the resource has public ip , Similarly resources on internet can intiate connection to the 
        resources in the subnet
      - IGW provides a target in your VPC route table for internet routable traffic
+  
+4. How to configure Internet Access?
+    - Create IGW
+    - Attach it to your VPC
+    - ADD a route to the subnet route table that directs internet-bound traffice to IGW
+    - Ensure the instances in your subnet has public IP
+    - Ensure Security Groups and NACL Allow desired internet traffic to flow to and from your instances
+      
