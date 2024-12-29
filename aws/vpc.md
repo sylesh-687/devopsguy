@@ -74,7 +74,31 @@
 
            - Interface Endpoints
            - Gateway Endpoints
+
 10. What is VPC Peering?
      - VPC peering connection is a networking connection between two VPCs, That enables you to route traffic between them using private IP Address
      - Instances in Either VPC can communicate with each other 
+
+11. Route Table.
+     - Route table contains set of rules, called routes, that determines where network traffic for your subnet or gateway is directed
+     - Route Priority
+   
+              - Longest Prefix
+              - Static Routes
+              - Prefix list routes
+              - Propagated routes
+    - Route Table Concepts
+   
+              - Main Route Table
+              - Custom Route Table
+              - Destination ( The Range of IP Address where you want your traffic to go
+              - Target ( The Gateway, Network Interface, or Connection through which to send the traffic
+              - Route Table Association ( The association between route table and subnet, IGW, or Virtual Private Gateway )
+              - Subnet Route Table ( Route Table that is associated with subnet )
+              - Local Route ( Default Route for communication in VPC )
+              - Propagation
+              - Gateway route table
+              - Edge Association
+              - Transit Gateway route table
+              - Local Gateway route table
       
