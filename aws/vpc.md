@@ -74,4 +74,7 @@
 
            - Interface Endpoints
            - Gateway Endpoints
+10. What is VPC Peering?
+     - VPC peering connection is a networking connection between two VPCs, That enables you to route traffic between them using private IP Address
+     - Instances in Either VPC can communicate with each other 
       
