@@ -35,4 +35,13 @@
     - ADD a route to the subnet route table that directs internet-bound traffice to IGW
     - Ensure the instances in your subnet has public IP
     - Ensure Security Groups and NACL Allow desired internet traffic to flow to and from your instances
+  
+5. What is ElasticIP?
+    - Static IPv4 Address
+    - This is allocated to AWS Account and is yours until you release it
+    - This is a Public IPv4 Address, Which is reachable from Internet
+    - This IP doesnot change over Time
+    - Elasitc Ip is region specific and cannot be moved to different region
+    - You are charged for all Elastic IP addresses in your account
+    - 5 EIPs per region by default 
       
