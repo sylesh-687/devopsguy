@@ -21,3 +21,10 @@
          - Public Subnet ( This Subnet has direct route to Internet Gateway )
          - VPN-only Subnet ( This subnet has Site to Site VPN Connection through Virtual Private Gateway )
          - Isolated Subnet ( This Subnet has not routes to destination outside VPC )
+
+3. What is IGW ( Internet Gateway ) ?
+     - VPC component, that allow communication between your VPC and Internet.
+     - It Supports IPv4 and IPv6 traffic
+     - It enables the components in public subnet to connect to internet, if the resource has public ip , Similarly resources on internet can intiate connection to the 
+       resources in the subnet
+     - IGW provides a target in your VPC route table for internet routable traffic
