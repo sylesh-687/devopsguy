@@ -43,5 +43,16 @@
     - This IP doesnot change over Time
     - Elasitc Ip is region specific and cannot be moved to different region
     - You are charged for all Elastic IP addresses in your account
-    - 5 EIPs per region by default 
+    - 5 EIPs per region by default
+  
+6. What is NAT?
+   - Network Address Translation Service
+   - This is used so that Instances in Private Subnet can connect to services outside your VPC, but external serivces cannot initiate connection to those instances
+   - NAT is a method of mapping an IP address space to another by modifying network address information in IP header of packets while they are in transit accross the routing      device
+   - NAT is Availablity Zone Specific
+   - NAT Supports TCP, UDP, ICMP
+   - NAT Support 5Gbps and scales upto 100Gpps
+   - You cannot associate Security Group to NAT
+   - Ports used by NAT are 1024–65535
+   - You can't route traffic to NAT through VPC peering
       
