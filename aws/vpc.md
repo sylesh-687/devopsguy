@@ -66,4 +66,11 @@
    - You cannot associate Security Group to NAT
    - Ports used by NAT are 1024–65535
    - You can't route traffic to NAT through VPC peering
+  
+9. What are VPC Endpoints?
+     - VPC endpoints enables customer to privately connect to supported AWS Services by a private Link.
+     - VPC endpints are virtual Devices
+     - There are two types of VPC endpoints
+           - Interface Endpoints
+           - Gateway Endpoints
       
