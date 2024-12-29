@@ -71,6 +71,7 @@
      - VPC endpoints enables customer to privately connect to supported AWS Services by a private Link.
      - VPC endpints are virtual Devices
      - There are two types of VPC endpoints
+
            - Interface Endpoints
            - Gateway Endpoints
       
