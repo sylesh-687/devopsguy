@@ -66,3 +66,7 @@
    - Resource
    - Sid
    ```
+
+9. What happens if you have one IAM statement that allows a principal to perform an operation on a resource and another statement that denies that same operation on the same resource?
+    - Deny takes the precedence and affect
+      
