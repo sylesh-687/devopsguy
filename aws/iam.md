@@ -37,6 +37,7 @@
    - IAM Policies define permission for an action regardless of the method you use to perform that action.
 
 7. Describe IAM Policy Structure
+```
 
   {
     "Version": "",
@@ -56,4 +57,4 @@
     ]
 
   }
-
+```
