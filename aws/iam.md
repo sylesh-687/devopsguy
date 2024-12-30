@@ -58,3 +58,11 @@
 
   }
 ```
+
+8. What are the core elements of IAM policy Statement?
+   ```
+   - Effect
+   - Principal
+   - Resource
+   - Sid
+   ```
