@@ -69,4 +69,11 @@
 
 9. What happens if you have one IAM statement that allows a principal to perform an operation on a resource and another statement that denies that same operation on the same resource?
     - Deny takes the precedence and affect
+  
+10. Difference b/w IAM roles and IAM user?
+    - IAM Role is an Identity within your AWS Account that as specific permission, this is not associated to a human user
+    - Role is intented to be assumable by anyone who needs it
+    - IAM role doesnot have standard long term credentials such as password or keys with it
+    - Instead when you assume role , It provides you with temporary security credentials for your role session.
+    - Roles can be used to delegeate access to user, application or serivces those normally dont have access to your AWS Resources
       
