@@ -22,4 +22,6 @@
    - Each AZ are Isolated from eachother 
    - They are connected with High Bandwith and low Latency
 
-5. AWS has 400+ point of presence. 
+5. AWS has 400+ point of presence.
+6. What are different types of virtualizations in AWS?
+   - 
