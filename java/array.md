@@ -34,4 +34,16 @@
  
    ```
 
+6. When should an Array be used?
+   ```
+   - Arrays are Excellent for lookups, pushing and poping are really quick.
+   - Arrays are bad as insertions, Deletions
 
+   ```
+7. Deletion of an Array?
+   ```
+      - Deletion of the elements from the last.
+      - Deletion of the first element 
+      - Deletion from any given Index
+
+    ```
