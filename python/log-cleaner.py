@@ -5,6 +5,7 @@ def cleanup_temp_files(directory: str, dry_run: bool = True) -> int:
     else:
         remove_files(stale_files)
         print(f"Removed {len(stale_files)} files.")
+    return len(stale_files)
 
 def files_older_than_7_days(directory: str) -> list:
     import os
